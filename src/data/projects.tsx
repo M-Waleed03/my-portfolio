@@ -194,7 +194,128 @@ export type Project = {
   github?: string;
   live: string;
 };
+
+const newProjectContent = (description: string, live: string, screenshot: string) => (
+  <div>
+    <TypographyP className="font-mono text-2xl text-center">{description}</TypographyP>
+    <ProjectsLinks live={live} />
+    <SlideShow images={[`${BASE_PATH}/${screenshot}`]} />
+  </div>
+);
+
 const projects: Project[] = [
+  {
+    id: "medisense",
+    category: "Final Year Project",
+    title: "MediSense",
+    src: "/assets/projects-screenshots/medisense/landing.png",
+    screenshots: ["landing.png"],
+    skills: { frontend: [], backend: [] },
+    live: "https://medisense-web-omega.vercel.app/",
+    content: newProjectContent(
+      "My Final Year Project: MediSense, an AI healthcare web application for symptom analysis, medical reports, and health guidance.",
+      "https://medisense-web-omega.vercel.app/",
+      "medisense/landing.png",
+    ),
+  },
+  {
+    id: "one-of-one-poetry",
+    category: "Poetry Website",
+    title: "1of1 Poetry",
+    src: "/assets/projects-screenshots/one-of-one-poetry/landing.png",
+    screenshots: ["landing.png"],
+    skills: { frontend: [], backend: [] },
+    live: "https://www.1of1poetry.com/",
+    content: newProjectContent(
+      "A poetry website featuring original writing, a featured poem, and a curated collection.",
+      "https://www.1of1poetry.com/",
+      "one-of-one-poetry/landing.png",
+    ),
+  },
+  {
+    id: "sallaberry-acupuncture",
+    category: "Acupuncture Website",
+    title: "Sallaberry Acupuncture",
+    src: "/assets/projects-screenshots/sallaberry-acupuncture/landing.png",
+    screenshots: ["landing.png"],
+    skills: { frontend: [], backend: [] },
+    live: "https://www.sallaberryacupuncture.com/",
+    content: newProjectContent(
+      "An acupuncture practice website with practitioner information, case studies, and clinic details.",
+      "https://www.sallaberryacupuncture.com/",
+      "sallaberry-acupuncture/landing.png",
+    ),
+  },
+  {
+    id: "drop-dead-gorgeous-studio",
+    category: "Salon Website",
+    title: "Drop Dead Gorgeous Studio",
+    src: "/assets/projects-screenshots/drop-dead-gorgeous-studio/landing.png",
+    screenshots: ["landing.png"],
+    skills: { frontend: [], backend: [] },
+    live: "https://www.dropdeadgorgeousstudio.com/",
+    content: newProjectContent(
+      "A salon studio website presenting nail services, studio information, and booking details.",
+      "https://www.dropdeadgorgeousstudio.com/",
+      "drop-dead-gorgeous-studio/landing.png",
+    ),
+  },
+  {
+    id: "moddedtime-customs",
+    category: "E-commerce Website",
+    title: "Modded Time Customs",
+    src: "/assets/projects-screenshots/moddedtime-customs/landing.png",
+    screenshots: ["landing.png"],
+    skills: { frontend: [], backend: [] },
+    live: "https://www.moddedtimecustoms.com/",
+    content: newProjectContent(
+      "An online store for custom Casio watches and hand-modified timepieces.",
+      "https://www.moddedtimecustoms.com/",
+      "moddedtime-customs/landing.png",
+    ),
+  },
+  {
+    id: "yorkshire-rose-academy",
+    category: "Dance Academy Website",
+    title: "Yorkshire Rose Academy of Dance",
+    src: "/assets/projects-screenshots/yorkshire-rose-academy/landing.png",
+    screenshots: ["landing.png"],
+    skills: { frontend: [], backend: [] },
+    live: "https://www.yrad.co.uk/",
+    content: newProjectContent(
+      "A dance academy website with class, style, timetable, and booking information.",
+      "https://www.yrad.co.uk/",
+      "yorkshire-rose-academy/landing.png",
+    ),
+  },
+  {
+    id: "hoy-studio",
+    category: "Architecture Studio Website",
+    title: "HOY Studio",
+    src: "/assets/projects-screenshots/hoy-studio/landing.png",
+    screenshots: ["landing.png"],
+    skills: { frontend: [], backend: [] },
+    live: "https://www.hoystudio.com/",
+    content: newProjectContent(
+      "An architecture and interiors studio website showcasing selected projects and studio information.",
+      "https://www.hoystudio.com/",
+      "hoy-studio/landing.png",
+    ),
+  },
+  {
+    id: "centex-iv",
+    category: "Wellness Website",
+    title: "CenTex IV",
+    src: "/assets/projects-screenshots/centex-iv/landing.png",
+    screenshots: ["landing.png"],
+    skills: { frontend: [], backend: [] },
+    live: "https://www.centexiv.com/",
+    content: newProjectContent(
+      "A wellness website presenting physician-guided IV hydration services in Waco and Kyle, Texas.",
+      "https://www.centexiv.com/",
+      "centex-iv/landing.png",
+    ),
+  },
   {
     id: "storekit",
     category: "Commerce platform",

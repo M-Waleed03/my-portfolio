@@ -78,7 +78,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
   [SkillNames.PYTHON]: {
     id: 7, name: "python", label: "Python",
     shortDescription: "Programming language used in the AI and Machine Learning toolkit.",
-    color: "#3776ab", icon: "/assets/logos/python-mono.svg", keyboardColor: "#3977a8",
+    color: "#3776ab", icon: "/assets/logos/python-mono.svg", keyboardIcon: keyboardLogo("python"), keyboardColor: "#3977a8",
   },
   [SkillNames.NODEJS]: {
     id: 8, name: "nodejs", label: "Node.js",
@@ -98,12 +98,12 @@ export const SKILLS: Record<SkillNames, Skill> = {
   [SkillNames.FIREBASE]: {
     id: 11, name: "firebase", label: "Firebase + Firestore",
     shortDescription: "Using Firebase services, including the Firestore database.",
-    color: "#ffca28", icon: "/assets/logos/firebase-mono.svg", keyboardColor: "#f3a712",
+    color: "#ffca28", icon: "/assets/logos/firebase-mono.svg", keyboardIcon: keyboardLogo("firebase"), keyboardColor: "#f3a712",
   },
   [SkillNames.SUPABASE]: {
     id: 12, name: "supabase", label: "Supabase",
     shortDescription: "Working with Supabase application services.",
-    color: "#3ecf8e", icon: "/assets/logos/supabase-mono.svg", keyboardColor: "#219e73",
+    color: "#3ecf8e", icon: "/assets/logos/supabase-mono.svg", keyboardIcon: keyboardLogo("supabase"), keyboardColor: "#219e73",
   },
   [SkillNames.MONGODB]: {
     id: 13, name: "mongodb", label: "MongoDB",
@@ -113,7 +113,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
   [SkillNames.VERCEL]: {
     id: 14, name: "vercel", label: "Vercel",
     shortDescription: "Deploying and hosting web applications.",
-    color: "#ffffff", icon: "/assets/logos/vercel-mono.svg", keyboardColor: "#333537",
+    color: "#ffffff", icon: "/assets/logos/vercel-mono.svg", keyboardIcon: keyboardLogo("vercel"), keyboardColor: "#333537",
   },
   [SkillNames.SKLEARN]: {
     id: 15, name: "scikit-learn", label: "Scikit-learn + Machine Learning",

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="space" cx="44%" cy="35%" r="75%">
+      <stop offset="0" stop-color="#1a2438" />
+      <stop offset="1" stop-color="#080c17" />
+    </radialGradient>
+    <linearGradient id="deck" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#242b38" />
+      <stop offset="1" stop-color="#121722" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="145%" height="155%">
+      <feDropShadow dx="0" dy="15" stdDeviation="12" flood-color="#000" flood-opacity="0.7" />
+    </filter>
+    <symbol id="keycap" viewBox="0 0 48 52">
+      <rect x="1" y="8" width="46" height="42" rx="9" fill="#070a11" />
+      <rect x="1" y="0" width="46" height="42" rx="9" fill="currentColor" />
+      <path d="M8 4h32" fill="none" stroke="#fff" stroke-linecap="round" stroke-opacity=".25" stroke-width="2" />
+      <path d="M16 17h16M19 23h10" fill="none" stroke="#fff" stroke-linecap="round" stroke-opacity=".88" stroke-width="2.6" />
+    </symbol>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#space)" />
+  <g fill="#aab8d4" opacity=".48">
+    <circle cx="92" cy="87" r="2" />
+    <circle cx="405" cy="92" r="2.5" />
+    <circle cx="438" cy="287" r="1.8" />
+    <circle cx="69" cy="340" r="2" />
+    <circle cx="370" cy="438" r="1.5" />
+  </g>
+  <g transform="matrix(.98 .24 .36 .97 54 92)" filter="url(#shadow)">
+    <rect x="6" y="12" width="330" height="244" rx="28" fill="#060910" />
+    <rect x="6" y="0" width="330" height="244" rx="28" fill="url(#deck)" stroke="#3a4354" stroke-width="6" />
+    <path d="M27 18h285" fill="none" stroke="#657086" stroke-opacity=".35" stroke-width="3" />
+    <use href="#keycap" x="22" y="14" width="48" height="52" style="color:#06b6d4" />
+    <use href="#keycap" x="77" y="14" width="48" height="52" style="color:#303744" />
+    <use href="#keycap" x="132" y="14" width="48" height="52" style="color:#059669" />
+    <use href="#keycap" x="187" y="14" width="48" height="52" style="color:#f59e0b" />
+    <use href="#keycap" x="242" y="14" width="48" height="52" style="color:#2563eb" />
+    <use href="#keycap" x="22" y="68" width="48" height="52" style="color:#0ea5e9" />
+    <use href="#keycap" x="77" y="68" width="48" height="52" style="color:#8b5cf6" />
+    <use href="#keycap" x="132" y="68" width="48" height="52" style="color:#eab308" />
+    <use href="#keycap" x="187" y="68" width="48" height="52" style="color:#ef4444" />
+    <use href="#keycap" x="242" y="68" width="48" height="52" style="color:#0284c7" />
+    <use href="#keycap" x="22" y="122" width="48" height="52" style="color:#f97316" />
+    <use href="#keycap" x="77" y="122" width="48" height="52" style="color:#0f766e" />
+    <use href="#keycap" x="132" y="122" width="48" height="52" style="color:#1d4ed8" />
+    <use href="#keycap" x="187" y="122" width="48" height="52" style="color:#06b6d4" />
+    <use href="#keycap" x="242" y="122" width="48" height="52" style="color:#4338ca" />
+    <use href="#keycap" x="22" y="176" width="48" height="52" style="color:#c2410c" />
+    <use href="#keycap" x="77" y="176" width="48" height="52" style="color:#2563eb" />
+    <use href="#keycap" x="132" y="176" width="48" height="52" style="color:#16a34a" />
+    <use href="#keycap" x="187" y="176" width="48" height="52" style="color:#7c3aed" />
+    <use href="#keycap" x="242" y="176" width="48" height="52" style="color:#4338ca" />
+  </g>
+</svg>
