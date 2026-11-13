@@ -6,6 +6,8 @@
 
 ### [✨ Live Demo → my-portfolio](https://my-portfolio-chi-nine-90.vercel.app/)
 
+![Portfolio Preview](https://github.com/M-Waleed03/my-portfolio/blob/main/public/assets/projects-screenshots/portfolio/landing.png?raw=true)
+
 [![GitHub stars](https://img.shields.io/github/stars/M-Waleed03/my-portfolio?style=flat&logo=github)](https://github.com/M-Waleed03/my-portfolio/stargazers)
 [![Forks](https://img.shields.io/github/forks/M-Waleed03/my-portfolio?style=flat&logo=github)](https://github.com/M-Waleed03/my-portfolio/network/members)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -195,6 +197,10 @@ This site is deployed on **Vercel**. To deploy your own:
 If you'd like to contribute or suggest improvements, feel free to open an issue or submit a pull request. All contributions are welcome!
 
 ---
+
+## Credits
+
+This project is based on the original work by [Naresh Khatri](https://github.com/Naresh-Khatri/3d-portfolio).
 
 ## 📄 License
 
