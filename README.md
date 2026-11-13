@@ -1,20 +1,17 @@
-<div align="center">
+ <div align="center">
 
 # 🚀 3D Portfolio
 
 **A developer portfolio you can actually play with.** Press keys on a 3D keyboard, watch other visitors' cursors fly by, and chat with whoever's online.
 
-### [✨ Live Demo → nareshkhatri.dev](https://my-portfolio-chi-nine-90.vercel.app/)
+### [✨ Live Demo → my-portfolio](https://my-portfolio-chi-nine-90.vercel.app/)
 
-[![GitHub stars](https://img.shields.io/github/stars/Naresh-Khatri/3d-portfolio?style=flat&logo=github)](https://github.com/Naresh-Khatri/3d-portfolio/stargazers)
-[![Forks](https://img.shields.io/github/forks/Naresh-Khatri/3d-portfolio?style=flat&logo=github)](https://github.com/Naresh-Khatri/3d-portfolio/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/M-Waleed03/my-portfolio?style=flat&logo=github)](https://github.com/M-Waleed03/my-portfolio/stargazers)
+[![Forks](https://img.shields.io/github/forks/M-Waleed03/my-portfolio?style=flat&logo=github)](https://github.com/M-Waleed03/my-portfolio/network/members)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Next.js 16](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Naresh-Khatri/3d-portfolio)
-
 <!-- swap for demo video: drag an .mp4 into the GitHub web editor, paste the user-attachments URL on its own line here -->
-![Portfolio Preview](https://github.com/Naresh-Khatri/3d-portfolio/blob/main/public/assets/projects-screenshots/portfolio/landing.png?raw=true)
 
 </div>
 
@@ -23,20 +20,20 @@
 ## ✨ Features
 
 - **Interactive 3D Keyboard** — Programmatically generated Chibi keyboard where each keycap represents a skill, revealing titles and descriptions on hover/press. Try colors, logos, and layouts in the [Chibi keycap customizer](https://chibi.nareshkhatri.dev/demo/keycaps).
-- **Live Multiplayer** — See other visitors' cursors in realtime, who's online, and chat with them ([details](#-realtime-features-optional))
-- **Buttery Animations** — GSAP + Framer Motion powered scroll, hover, and reveal animations
-- **Space Theme** — Floating particles on a dark canvas for a cosmic vibe
+- **Live Multiplayer** — See other visitors' cursors in realtime, who's online, and chat with them ([details](#-realtime-features-optional)).
+- **Buttery Animations** — GSAP + Framer Motion powered scroll, hover, and reveal animations.
+- **Space Theme** — Floating particles on a dark canvas for a cosmic vibe.
 - **Easter Eggs** — Open DevTools and follow the clues 🐱
-- **Light & Dark Mode** — Full theme support with cheeky disclaimer toasts
-- **Responsive** — Works across all screen sizes
-- **Contact Form** — Email delivery via Resend
-- **Analytics** _(optional)_ — Umami analytics integration
+- **Light & Dark Mode** — Full theme support with cheeky disclaimer toasts.
+- **Responsive** — Works across all screen sizes.
+- **Contact Form** — Email delivery via Resend.
+- **Analytics** _(optional)_ — Umami analytics integration.
 
 ## 🛠️ Tech Stack
 
 | Layer | Technologies |
 |---|---|
-| **Framework** | Next.js 16.2.2, React 19.2.4, TypeScript |
+| **Framework** | Next.js 16, React 19, TypeScript |
 | **Styling** | Tailwind CSS, Shadcn UI, Aceternity UI |
 | **Animation** | GSAP, Framer Motion |
 | **3D** | @chibi3d/runtime, Three.js, React Three Fiber |
@@ -56,37 +53,37 @@
 
 1. **Clone the repository:**
 
-    ```bash
-    git clone https://github.com/Naresh-Khatri/3d-portfolio.git
-    cd 3d-portfolio
-    ```
+   ```bash
+   git clone https://github.com/M-Waleed03/my-portfolio.git
+   cd my-portfolio
+   ```
 
 2. **Install dependencies:**
 
-    ```bash
-    pnpm install
-    ```
+   ```bash
+   pnpm install
+   ```
 
 3. **Set up environment variables:**
 
-    Copy `.env.example` to `.env.local` and fill in the values:
+   Copy `.env.example` to `.env.local` and fill in the values:
 
-    ```bash
-    cp .env.example .env.local
-    ```
+   ```bash
+   cp .env.example .env.local
+   ```
 
-    | Variable | Required | Description |
-    |---|---|---|
-    | `RESEND_API_KEY` | Yes | API key from [Resend](https://resend.com) for the contact form |
-    | `NEXT_PUBLIC_WS_URL` | No | WebSocket server URL for realtime features (cursors, chat, presence) |
-    | `UMAMI_DOMAIN` | No | Umami analytics script URL |
-    | `UMAMI_SITE_ID` | No | Umami website ID |
+   | Variable | Required | Description |
+   |---|---|---|
+   | `RESEND_API_KEY` | Yes | API key from [Resend](https://resend.com) for the contact form |
+   | `NEXT_PUBLIC_WS_URL` | No | WebSocket server URL for realtime features (cursors, chat, presence) |
+   | `UMAMI_DOMAIN` | No | Umami analytics script URL |
+   | `UMAMI_SITE_ID` | No | Umami website ID |
 
 4. **Run the development server:**
 
-    ```bash
-    pnpm dev
-    ```
+   ```bash
+   pnpm dev
+   ```
 
 5. Open [http://localhost:3000](http://localhost:3000) and see the magic ✨
 
@@ -168,29 +165,28 @@ Keys follow the order of `SKILLS`. To change the default six columns, pass a sec
 
 The portfolio supports optional realtime features powered by a **separate backend API**:
 
-- 🖱️ **Live cursors** — See other visitors' cursors in realtime
-- 👥 **Online presence** — Shows who's currently on the site
-- 💬 **Chat** — Live chat between visitors
-- **Zombie Survival** with multiplayer and leaderboards on the live site.
+- 🖱️ **Live cursors** — See other visitors' cursors in realtime.
+- 👥 **Online presence** — Shows who's currently on the site.
+- 💬 **Chat** — Live chat between visitors.
+- **Zombie Survival** with multiplayer and leaderboards on the original live site.
 
 These features activate automatically when the `NEXT_PUBLIC_WS_URL` environment variable is set. Without it, the portfolio works perfectly fine as a static site — no realtime features, no backend dependency.
 
 > [!NOTE]
-> The backend API is **not open source**. This is intentional! Too many people have cloned the portfolio and claimed they built it from scratch. The realtime server stays private to keep the live experience unique and make it stand out.
-
+> The backend API is **not open source**. This is intentional! The realtime server stays private to keep the live experience unique.
 
 ---
 
 ## 🚀 Deployment
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Naresh-Khatri/3d-portfolio)
-
 This site is deployed on **Vercel**. To deploy your own:
 
-1. Push your code to a GitHub repository
-2. Connect the repository to [Vercel](https://vercel.com)
-3. Add your environment variables in the Vercel dashboard
-4. Vercel handles the rest — automatic deployments on every push
+1. Push your code to a GitHub repository.
+2. Connect the repository to [Vercel](https://vercel.com).
+3. Add your environment variables in the Vercel dashboard.
+4. Vercel handles the rest — automatic deployments on every push.
+
+**Live deployment:** [my-portfolio-chi-nine-90.vercel.app](https://my-portfolio-chi-nine-90.vercel.app)
 
 ---
 
@@ -206,4 +202,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 If you use this portfolio, a credit or link back to the [original repo](https://github.com/Naresh-Khatri/3d-portfolio) would be much appreciated ❤️
 
-Note on analytics: a deployed copy reports its own hostname once per browser (nothing else — no visitor, page, or referrer data) so I can see where the template gets used.
+Note on analytics: a deployed copy reports its own hostname once per browser (nothing else — no visitor, page, or referrer data) so the original template author can see where the template gets used.
