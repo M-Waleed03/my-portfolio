@@ -1,6 +1,6 @@
  <div align="center">
 
-# 🚀 3D Portfolio
+# 3D Portfolio
 
 **A developer portfolio you can actually play with.** Press keys on a 3D keyboard, watch other visitors' cursors fly by, and chat with whoever's online.
 
