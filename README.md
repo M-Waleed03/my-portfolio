@@ -4,7 +4,7 @@
 
 **A developer portfolio you can actually play with.** Press keys on a 3D keyboard, watch other visitors' cursors fly by, and chat with whoever's online.
 
-### [✨ Live Demo → nareshkhatri.dev](https://nareshkhatri.dev)
+### [✨ Live Demo → nareshkhatri.dev](https://my-portfolio-chi-nine-90.vercel.app/)
 
 [![GitHub stars](https://img.shields.io/github/stars/Naresh-Khatri/3d-portfolio?style=flat&logo=github)](https://github.com/Naresh-Khatri/3d-portfolio/stargazers)
 [![Forks](https://img.shields.io/github/forks/Naresh-Khatri/3d-portfolio?style=flat&logo=github)](https://github.com/Naresh-Khatri/3d-portfolio/network/members)
