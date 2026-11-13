@@ -954,7 +954,7 @@ const projects: Project[] = [
           <p className="font-mono mb-2">
             Dark background + floating particles = out-of-this-world cool.
           </p>
-          <SlideShow images={[`${BASE_PATH}/portfolio/navbar.png`]} />
+          <SlideShow images={[`${BASE_PATH}/portfolio/landing.png`]} />
           <TypographyH3 className="my-4 mt-8">Projects</TypographyH3>
 
           <p className="font-mono mb-2">
@@ -963,7 +963,6 @@ const projects: Project[] = [
           <SlideShow
             images={[
               `${BASE_PATH}/portfolio/projects.png`,
-              `${BASE_PATH}/portfolio/project.png`,
             ]}
           />
           <p className="font-mono mb-2 mt-8 text-center">
